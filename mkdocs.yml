@@ -19,11 +19,13 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
+      primary: blue
 
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+      primary: blue
   
 markdown_extensions:
   - admonition
