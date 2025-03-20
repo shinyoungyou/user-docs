@@ -34,33 +34,15 @@ Ensure you have the following installed before proceeding:
 
 The main sections covered in this documentation include:
 
-- **Debugging Arrays, For Loops, and While Loops**
-- **Connecting to GitHub (Commit and Push)**
-- **Editing Code Efficiently: Multi-Cursor, Shortcuts, and More**
+- **Debugging**
+- **Connecting to GitHub**
+- **Editing Code Efficiently**
 
 ## Typographical Conventions
 
 To make the instructions easy to follow, this guide will utilize:
 
-1. **Numbered steps** clearly separating each action:
-
-    ```bash
-    git add .
-    git commit -m "your commit message"
-    ```
-
-2. **Highlighting key code changes** for clarity:
-
-    ```javascript
-    const numbers = [1, 2, 3];
-    const doubled = numbers.map(num => num * 2); // Doubles each element
-    ```
-
-3. **Inline formatting** for filenames, commands, and shortcuts, such as `index.js`, `Ctrl + Shift + P`.
-
-4. **Terminal commands** formatted distinctly:
-
-    > Run `npm install` in your terminal
+**TBD**
 
 ## Notes and Warning Messages
 
