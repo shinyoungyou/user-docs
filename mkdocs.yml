@@ -1,3 +1,42 @@
 site_name: My Docs
+
+nav:
+  - Home: "index.md"
+  - Debugging: "pages/debugging.md"
+  - Connecting to GitHub: "pages/connect-github.md"
+  - Editing Code Efficiently: "pages/code.md"
+  - Troubleshooting: "pages/troubleshooting.md"
+  - Glossary: "pages/glossary.md"
+
 theme:
   name: material
+  features:
+    - navigation.instant
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  
+markdown_extensions:
+  - admonition
+
+repo_url: https://github.com/shinyoungyou/user-docs
+repo_name: shinyoungyou/user-docs
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shinyoungyou/user-docs
+      name: GitHub
+
+
+copyright: Copyright &copy; 2025 - Shinyoung You & Zoey Lee
