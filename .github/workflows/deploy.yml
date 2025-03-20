@@ -24,6 +24,6 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           DEPLOY_BRANCH: gh-pages
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          mkdocs gh-deploy --force
+          mkdocs gh-deploy --force --remote-name https://x-access-token:${PERSONAL_TOKEN}@github.com/<username>/<repo>.git
