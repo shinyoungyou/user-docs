@@ -2,7 +2,7 @@ site_name: My Docs
 
 nav:
   - Home: "index.md"
-  - Debugging: "pages/debuggingmd"
+  - Debugging: "pages/debugging.md"
   - Connecting to GitHub: "pages/connect-github.md"
   - Editing Code Efficiently: "pages/code.md"
   - Troubleshooting: "pages/troubleshooting.md"
