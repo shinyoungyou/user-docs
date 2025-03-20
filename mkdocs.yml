@@ -19,7 +19,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-      primary: green
+      primary: blue
 
     - scheme: slate
       toggle:
