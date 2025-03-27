@@ -26,7 +26,7 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
       primary: blue
-  
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -36,14 +36,10 @@ markdown_extensions:
 repo_url: https://github.com/shinyoungyou/user-docs
 repo_name: shinyoungyou/user-docs
 
-plugins:
-  - glightbox
-
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/shinyoungyou/user-docs
       name: GitHub
-
 
 copyright: Copyright &copy; 2025 - Shinyoung You & Zoey Lee
