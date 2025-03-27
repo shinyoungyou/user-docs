@@ -29,10 +29,15 @@ theme:
   
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 repo_url: https://github.com/shinyoungyou/user-docs
 repo_name: shinyoungyou/user-docs
 
+plugins:
+  - glightbox
 
 extra:
   social:
