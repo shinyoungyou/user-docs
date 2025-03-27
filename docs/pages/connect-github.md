@@ -54,4 +54,4 @@ In this section, you know already how to create a new folder
 
 
 ## Option 2: Cloning an empty repository from GitHub
-
+1. new thing
