@@ -19,7 +19,10 @@ This documentation assumes you have:
 
 - Basic familiarity with programming concepts (e.g., loops, arrays).
 - A foundational understanding of version control systems, specifically Git.
-- General familiarity with coding in any language supported by VS Code, such as JavaScript, Python, Java, or C#.
+- Familiarity with Python and have the Python extension installed in VS Code.
+- Have used Python in the VS Code environment before.
+- Frontend experience with HTML.
+- Windows environment
 
 ## Software Requirements
 
