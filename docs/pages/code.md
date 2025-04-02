@@ -1,5 +1,5 @@
 # Editing Code Efficiently in VS Code
-In this section, we will talk about editing code efficiently in VS Code. This guide shows how to make your HTML and CSS editing faster and smarter using features like multi-cursor, and other powerful editing tools. These tips will help you save time, reduce repetitive work, and focus on more creative and meaningful tasks in your web design projects.
+In this section, we will talk about editing code efficiently in VS Code. This guide shows how to make your HTML editing faster and smarter using features like multi-cursor, and other powerful editing tools. These tips will help you save time, reduce repetitive work, and focus on more creative and meaningful tasks in your web design projects.
 
 
 ## Using Multi-Cursor for Faster Code Editing
@@ -12,15 +12,16 @@ This set shows how to use the multi-cursor feature in two common scenarios:
 - **Placing Multi-Cursor**: Adding an attribute to each list item in a simple HTML list.
 
 ### Example 1: Renaming Repeated Code
-1. Prepare Your HTML File
-Copy and paste the following HTML structure into a new file:
+1. Prepare your HTML File
+    
+    Copy and paste the following HTML structure into a new file:
 ``` { .html }
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Efficient Coding Demo</title>
+  <title>Example 1: Renaming Repeated Code</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -64,7 +65,7 @@ Let's say you want to change the class name `card` to `box`.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Example 2: Place Multi-Cursor</title>
 </head>
 <body>
     <ul>
@@ -88,13 +89,13 @@ VS Code gives you easy ways to close tabs without doing it one by one.
 
 1. Right-click on any open tab.
 2. Choose a Tab Closing Option:
-    - `Close`
-    - `Close Others`
-    - `Close to the Right`
-    - `Close to the Left`
-    - `Close All`
+    - `Close`: Closes the current tab.
+    - `Close Others`: Closes all tabs except the active one.
+    - `Close to the Right`: Closes all tabs to the right of the current tab.
+    - `Close to the Left`: Closes all tabs to the left of the current tab.
+    - `Close All`: Closes every open tab.
 
-Use these to clean up your editor quickly and get back to coding!
+Use the **Quickly Close** to clean up your editor quickly and get back to coding!
 
 
 ## Open Files Quickly by Searching
