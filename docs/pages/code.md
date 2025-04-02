@@ -51,8 +51,20 @@ Let's say you want to change the class name `card` to `box`.
 3. **Select More Matches**
     - **One by One**: Press `Ctrl` + `D` to select the next matching word.
         -  While holding down Ctrl, press D repeatedly to select the next matching word each time.
+
+      <figure markdown="span">
+        ![Image title](../assets/code1.gif){ width="100%" }
+      </figure>
     - **Select All at Once**: After selecting one of the words, press `Ctrl` + `Shift` + `L` to select all matching words in the file at once
+
+      <figure markdown="span">
+        ![Image title](../assets/code2.gif){ width="100%" }
+      </figure>
 4. **Edit the Text**: Once selected, type `box`. Then, all selected words will change at the same time.
+
+      <figure markdown="span">
+        ![Image title](../assets/code3.gif){ width="100%" }
+      </figure>
 
 
 ### Example 2: Place Multi-Cursor
@@ -82,6 +94,10 @@ Now, you want to add `class="item"` to each `<li>` tag.
 2. Hold down the `Alt` key and click in front of each `<li>` tag where you want to insert the attribute.
 3. Type `class="item"`, so you can have it at each cursor position.
 
+      <figure markdown="span">
+        ![Image title](../assets/code4.gif){ width="100%" }
+      </figure>
+
 
 ## Quickly Close Multiple Tabs
 Tired of closing tabs one by one?
@@ -94,6 +110,10 @@ VS Code gives you easy ways to close tabs without doing it one by one.
     - `Close to the Right`: Closes all tabs to the right of the current tab.
     - `Close to the Left`: Closes all tabs to the left of the current tab.
     - `Close All`: Closes every open tab.
+  
+    <figure markdown="span">
+      ![Image title](../assets/code5.gif){ width="100%" }
+    </figure>
 
 Use the **Quickly Close** to clean up your editor quickly and get back to coding!
 
@@ -105,6 +125,10 @@ If you can’t remember the exact location, use **Quick Open** to locate your fi
 1. Press `Ctrl`+`P` to open the Quick Open dialog.
 2. **Search for Your File**: Type part of the file name. VS Code will display a list of matching files, including those recently or frequently opened.
 3. **Select and Open the File**: Use the arrow keys (↑ / ↓) keys to navigate the list, then press Enter to open the file.
+
+    <figure markdown="span">
+      ![Image title](../assets/code6.gif){ width="100%" }
+    </figure>
 
 Note: The more specific you are with the file name, the quicker you’ll find the file you need.
 
