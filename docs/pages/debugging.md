@@ -1,154 +1,103 @@
 # Debugging in VS Code
-In this section, we will talk about Debugging. 
-This guide clearly shows how to debug a popular algorithm, Bubble Sort, in Python using VS Code. 
-This guide will helps you understand VS Code debugging features, such as **breakpoints**, **Step Into**, **Step Over**, and **Step Out**, while also learning how the Bubble Sort algorithm works.
+In this section, we will talk about how to debug your Python code using VS Code. 
+You'll use features like **Step Into**, **Step Over,** and **Step Out**. These tools help you see what happens inside your functions and loops. We’ll use a simple program that adds and multiplies numbers.
 
-## 1, Create Your Python File
-In VS Code, open a folder and create a Python file named bubble_sort.py.
+## Create Your Python File
+1. Open VS Code.
+2. Open a folder where you want to work.
+3. Create a new file and name it `simple_debug.py`.
+
 <figure markdown="span">
   ![Image title](../assets/debug1.png){ width="300" }
 </figure>
 
 
-## 2. Enter the Bubble Sort Code
+## Enter the Code
+
+Copy and paste the following code into your `simple_debug.py` file:
+
 Type or copy the following Python code into your file:
 ``` { .py }
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+def add(a, b):
+    sum = a + b
+    return sum
 
-numbers = [64, 34, 25, 12, 22, 11, 90]
-bubble_sort(numbers)
-print(numbers) 
+def multiply(x, y):
+    result = 0
+    for i in range(y):
+        result = add(result, x)
+    return result
+
+def main():
+    num1 = 4
+    num2 = 3
+    product = multiply(num1, num2)
+    print("Product is:", product)
+
+main()
 ```
+This code defines two functions: `add` (which adds two numbers) and `multiply` (which uses repeated addition to multiply two numbers). The `main` function calls `multiply` and prints the result.
 
-## 3. Open the Debug panel
-Click the **Run and Debug (Ctrl_Shift_D)** icon (bug icon) in the VS Code left sidebar.
+## Open the Debug panel
+
+1. Click the Run and Debug icon (the bug icon) on the left sidebar.
+2. Alternatively, press `Ctrl` + `Shift` + `D` 
+
 <figure markdown="span">
   ![Image title](../assets/debug3.png){ width="300" }
 </figure>
 
 
-## 4. Set Breakpoints
-Breakpoints allow your code to pause at specific lines, helping you closely inspect what happens during each step.
+## Set Breakpoints
+Breakpoints allow you to pause your program at specific lines to see what is happening.
 
-To set breakpoints:
+1. Move your mouse over the left side of the line numbers.
+2. You'll notice a dim red dot appear when hovering. Click the dim red dot, turning it into a solid red dot. This red dot means a breakpoint is now set.
 
-- Move your mouse cursor to the left margin area next to the line numbers.
-- You'll notice a dim red dot appear when hovering. Click the grey dot, turning it into a solid red dot. This red dot means a breakpoint is now set.
+Set breakpoints at:
+1. The first line inside the `add()` function (to see how addition is done).
+2. The line `result = add(result, x)` inside the `multiply()` function (to see when the `add()` function is called).
 
 <figure markdown="span">
   ![Image title](../assets/debug4.gif){ width="300" }
 </figure>
 
 
-``` { .py .annotate }
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):  # (1)
-        for j in range(0, n-i-1):  # (2)
-            if arr[j] > arr[j+1]:  # (3)
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+## Start Debugging
+1. Click the `Run and Debug` button at the top of the Debug panel.
+2. Your code will run and pause at the first breakpoint.
 
-numbers = [64, 34, 25, 12, 22, 11, 90]
-bubble_sort(numbers)
-print(numbers) 
-```
-
-1. Line `4` (outer loop) - To observe iterations over the entire list.
-2. Line `5` (inner loop) - To watch the pairwise comparison of elements.
-3. Line `6` (swap operation) - To see exactly when elements get swapped.
-
-Click next to line numbers to set breakpoints:
-
-- Line `4` (outer loop)
-- Line `5` (inner loop)
-- Line `6` (swap operation)
-
-## 5. Start Debugging
-Click the "Run and Debug" button at the top of the Debug panel to run your code until it pauses at the first breakpoint.
 <figure markdown="span">
   ![Image title](../assets/debug5.gif){ width="300" }
 </figure>
 
 
-## 6. Inspect Variables
-At your first breakpoint (line 4), hover your mouse over variables like `arr`, `i`, and `j` to view their values.
+## Inspect Variables
+When the code pauses, hover your mouse over variables like `a`, `b`, `result`, or use the **WATCH** panel to see their current values.
+
 <figure markdown="span">
   ![Image title](../assets/debug6.gif){ width="300" }
 </figure>
 
 
-## 7: Step Over: Step through outer loop
-Before stepping through the code:
+## Step Into: See Inside a Function
+1. When you reach the line `result = add(result, x)` in the `multiply()` function, click the **Step Into** button (down arrow icon).
+2. VS Code will take you inside the `add()` function.
+3. Now you can see how the values `a` and `b` are added together.
 
-- Open the WATCH panel on the left side of the debug panel.
-- Click the ➕ icon in the WATCH section and type in `arr[j]` and `arr[j+1]`. Their current values will be displayed and updated live.
-<figure markdown="span">
-  ![Image title](../assets/debug7-1.gif){ width="300" }
-</figure>
-
-Now use the "Step Over" button (↪️ curved arrow icon at the top Debug toolbar) to run your current line and move to the next line without entering deeper into functions or loops.
-
-- Watch closely how j changes with each step.
-- As you step over, look at the `arr[j]` and `arr[j+1]` values in the WATCH panel to see exactly which elements are being compared.
-- You'll see the largest number move to the right with each pass.
-
-<figure markdown="span">
-  ![Image title](../assets/debug7-2.gif){ width="300" }
-</figure>
+Tip: Use this to understand how each function works.
 
 
-
-## 8: Step Into: Step through inner loop
-You can use Step Into when you want to go into funciton and how the inner? function works. 
-
-To see when to use step into , and see how different step into is compared to step over,
-Type or copy the following Python code into your file:
-
-``` { .py }
-def compare_and_swap(arr, j):
-    if arr[j] > arr[j+1]:
-        arr[j], arr[j+1] = arr[j+1], arr[j]
-
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            compare_and_swap(arr, j)
-
-numbers = [64, 34, 25, 12, 22, 11, 90]
-bubble_sort(numbers)
-print(numbers) 
-```
-
-Use the "Step Into" button (⬇️ down arrow icon at the top Debug toolbar)  
-to go inside the `compare_and_swap()` function and see exactly how the comparison and swapping works.
-
-For example, when your breakpoint is at the line `compare_and_swap(arr, j)`,  
-click "Step Into" to enter the function. You'll be taken to the line `if arr[j] > arr[j+1]:`.
-
-Inside the function:
-- Hover over `arr`, `j`, and use the **WATCH** panel to track `arr[j]` and `arr[j+1]`.
-- Step through each line inside `compare_and_swap()` to observe when and how the swap happens.
+## Step Over: Skip the Function Details
+1. If you don’t want to see inside the `add()` function, you can click the **Step Over** button (curved arrow icon).
+2. This will execute the `add()` function but not show its inner workings.
+3. Use this to move through your code quickly when you don’t need to see every detail.
 
 
-## 9: Watch Swapping Elements
-When stopped at line 6, carefully check how two elements are swapped:
+## Step Out: Exit the Current Function
+1. If you are inside a function (like `add()`) and want to return to the function that called it, click the **Step Out** button (up arrow icon).
+2. This will finish the current function and take you back to the previous level in your code.
 
-- Confirm by hovering over elements that the left one is larger than the right one.
-- Use the "Step Over" button (↪️) to perform the swap, and hover again to see the updated array.
-
-# 10. Step Out
-- Use the "Step Out" button (⬆️ up arrow icon at the top Debug toolbar) to quickly finish the current loop or function call and return to the outer loop.
-- Continue using the "Step Over" button to see outer loop progress.
-
-# 11. Finish and Review
-- Finally, click the red square button (🟥) to stop debugging. 
-- Check the terminal output; your numbers should be sorted.
-
-You've successfully debugged and understood Bubble Sort using VS Code!
-
+## Finish Debugging
+1. When you’re done, click the red square (stop button) to stop debugging.
+2. Check your terminal to see the output (it should display "Product is: 12").
