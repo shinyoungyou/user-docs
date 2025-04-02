@@ -1,4 +1,14 @@
-| **Symptoms** | **Probable Cause** | **Action** |
-| ------------ | ------------------ | ---------- |
-|Publish Branch button is not visible|No local commits exist, VS Code is not connected due to GitHub authentication issues, or VS Code UI is changed|Commit your changes first, then click "Add Remote" blue button in the popup at the bottom right, and press the ESC key.|
-|Errors occur when using git commands in the terminal|Git may not be installed, or the PATH setting is incorrect|Ensure Git is properly installed and verify your PATH environment variable settings.|
+| **Instructions** | **Symptoms** | **Probable Cause** | **Action** |
+| ------------ | ------------ | ------------------ | ---------- |
+|`GitHub`|Publish Branch button is not visible|No local commits exist, VS Code is not connected due to GitHub authentication issues, or VS Code UI is changed|Commit your changes first, then click "Add Remote" blue button in the popup at the bottom right, and press the ESC key.|
+|`GitHub`|Errors occur when using git commands in the terminal|Git may not be installed, or the PATH setting is incorrect|Ensure Git is properly installed and verify your PATH environment variable settings.|
+|`Code Efficiently`|Selected text isn’t updating across all instances.|Not all matching instances were selected.|Use "Select All at Once" (Ctrl+Shift+L) or ensure you repeatedly press Ctrl+D to include every match.|
+|`Code Efficiently`|Some tabs remain open despite using tab closing commands.|Unsaved changes or active unsaved file prompts may prevent closure.|Save your files and try again, or close VS Code and reopen it if the issue persists.|
+|`Code Efficiently`|Quick Open doesn’t display the expected file.|File name may be misspelled or the file is not in the current workspace.|Double-check the file name and confirm the file’s location in your project folder.|
+|`Code Efficiently`|Changes with multi-cursor are applied unevenly.|Inconsistent selection of matching text.|Verify your selection by scrolling through the file and reapply the multi-cursor commands carefully.|
+|`Code Efficiently`|VS Code feels slow or unresponsive while editing.|Too many open files, heavy extensions, or large project size causing performance issues.|Close unnecessary tabs, disable unused extensions, or restart VS Code to refresh performance.|
+|`Debugging`|Breakpoint not being hit.|Breakpoints set on incorrect or non-executable lines, or unsaved file changes.|Save your file and ensure breakpoints are set on executable code lines (e.g., where functions are called).|
+|`Debugging`|Debug panel does not open or display properly.|The debug panel might be closed or the wrong view is active.|Click the Run and Debug icon (bug icon) on the left sidebar or press Ctrl + Shift + D to open the correct panel.|
+|`Debugging`|Variables are not showing correct or updated values.|The debugger may not be paused at a breakpoint, or variables are out of scope.|Pause your code using breakpoints and check the Variables section; consider adding variables to the WATCH panel for continuous monitoring.|
+|`Debugging`|Step Into does not enter a function as expected.|The debugger might be optimized to skip small functions or a breakpoint is interfering.|Verify that your breakpoint is on the function call line; if needed, set an additional breakpoint inside the function to test Step Into.|
+|`Debugging`|Unexpected output or behavior during debugging.|Logical errors in the code or unexpected data changes in loops/functions.|Step through the code line by line using Step Over/Step Into; inspect variable values in the Variables/WATCH panels to diagnose the issue.|
