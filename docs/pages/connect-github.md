@@ -4,7 +4,7 @@
 In this section, we will explore how to connect VS Code to GitHub seamlessly. This guide demonstrates how to connect GitHub to your VS Code workflow, allowing you to manage repositories, commit changes, and push code directly from the editor. By following these steps, you'll streamline version control and enhance collaboration, enabling you to focus on building projects.
 
 ## Option 1: In VS Code
-In this option, we assume that you already know how to create a new, empty folder on your computer.
+In this option, we assume that you already know how to create a new, empty folder on your computer and you have installed Git.
 <br>
 
 ### Open a folder and Create a file
@@ -48,7 +48,7 @@ In this option, we assume that you already know how to create a new, empty folde
       ![Image title](images/step6.jpg){ width="100%" }
     </figure>
     !!! warning
-        If you can't find "Publish Branch" button, go to 
+        If you can't find "Publish Branch" button, please check the Troubleshooting section.
 
 3. Click the Allow button, and sign in using GitHub
 
@@ -67,7 +67,7 @@ In this option, we assume that you already know how to create a new, empty folde
 <br>
 
 ## Option 2: From GitHub
-In this option, we assume that you already have a GitHub account.
+In this option, we assume that you already have a GitHub account and have installed Git.
 <br>
 
 ### Create a new repository in the GitHub
