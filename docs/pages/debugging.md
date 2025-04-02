@@ -52,11 +52,11 @@ This code defines two functions: `add` (which adds two numbers) and `multiply` (
 Breakpoints allow you to pause your program at specific lines to see what is happening.
 
 1. Move your mouse over the left side of the line numbers.
-2. You'll notice a dim red dot appear when hovering. Click the dim red dot, turning it into a solid red dot. This red dot means a breakpoint is now set.
+2. You'll notice a dim red dot appear. Click on it, and it will turn into a solid red dot, indicating that a breakpoint has been set.
 
 Set breakpoints at:
-1. The first line inside the `add()` function (to see how addition is done).
-2. The line `result = add(result, x)` inside the `multiply()` function (to see when the `add()` function is called).
+
+1. The line `result = add(result, x)` inside the `multiply()` function (to see when the `add()` function is called).
 
 <figure markdown="span">
   ![Image title](../assets/debug4.gif){ width="300" }
@@ -65,18 +65,19 @@ Set breakpoints at:
 
 ## Start Debugging
 1. Click the `Run and Debug` button at the top of the Debug panel.
-2. Your code will run and pause at the first breakpoint.
+2. Your code will run and pause at the breakpoint.
 
 <figure markdown="span">
   ![Image title](../assets/debug5.gif){ width="300" }
 </figure>
 
 
-## Inspect Variables
-When the code pauses, hover your mouse over variables like `a`, `b`, `result`, or use the **WATCH** panel to see their current values.
+## Where to Inspect Variables
+1. **Variables section**: When the code pauses at a breakpoint, you can see the current values of your variables in the **Variables** section on the left side of the Debug panel. 
+2. **Inline code**: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
 
 <figure markdown="span">
-  ![Image title](../assets/debug6.gif){ width="300" }
+  ![Image title](../assets/debug6.png){ width="300" }
 </figure>
 
 
@@ -85,19 +86,34 @@ When the code pauses, hover your mouse over variables like `a`, `b`, `result`, o
 2. VS Code will take you inside the `add()` function.
 3. Now you can see how the values `a` and `b` are added together.
 
+<figure markdown="span">
+  ![Image title](../assets/debug7.gif){ width="300" }
+</figure>
+
 Tip: Use this to understand how each function works.
-
-
-## Step Over: Skip the Function Details
-1. If you don’t want to see inside the `add()` function, you can click the **Step Over** button (curved arrow icon).
-2. This will execute the `add()` function but not show its inner workings.
-3. Use this to move through your code quickly when you don’t need to see every detail.
 
 
 ## Step Out: Exit the Current Function
 1. If you are inside a function (like `add()`) and want to return to the function that called it, click the **Step Out** button (up arrow icon).
 2. This will finish the current function and take you back to the previous level in your code.
 
+<figure markdown="span">
+  ![Image title](../assets/debug8.gif){ width="300" }
+</figure>
+
+## Step Over: Skip the Function Details
+1. If you don’t want to see inside the `add()` function, you can click the **Step Over** button (curved arrow icon).
+2. This will execute the `add()` function but not show its inner workings.
+3. Use this to move through your code quickly when you don’t need to see every detail.
+
+<figure markdown="span">
+  ![Image title](../assets/debug9.gif){ width="300" }
+</figure>
+
 ## Finish Debugging
 1. When you’re done, click the red square (stop button) to stop debugging.
 2. Check your terminal to see the output (it should display "Product is: 12").
+
+<figure markdown="span">
+  ![Image title](../assets/debug10.gif){ width="300" }
+</figure>
