@@ -50,19 +50,19 @@ These instructions use the following typographic conventions:
 
 | **Convention Explanation** | **Examples** |
 |------------------------------|----------------|
-|Commands & Actions: Bolded verbs are commands or actions you need to perform for instructions.|Click, Type, Choose, Create|
+|Commands & Actions: Blue bolded verbs are commands or actions you need to perform for instructions.|Click, Type, Choose, Create|
+|Instructions that require you to run a command in terminal| <blockquote>run some command in the terminal |
 
 
-## Notes and Warning Messages
-
-Throughout the guide, you will see important notes highlighted clearly:
+## Admonitions
+This guide uses success, warning, and note messages to provide additional information for instruction steps.
 
 !!! warning
-    Highlights actions that could lead to unintended issues or errors if not followed carefully.
+    Warning provides information about instructions that can cause errors.
 
-!!! info
-    Provides additional context or useful tips to enhance your understanding.
+!!! note
+    Note provides additional information for a step.
 
 !!! success
-    Indicates successful completion or expected outcomes of an action.
+    Success provides information about the success outcome of instructions.
 
