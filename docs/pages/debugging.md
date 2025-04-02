@@ -8,7 +8,7 @@ You'll use features like **Step Into**, **Step Over,** and **Step Out**. These t
 3. Create a new file and name it `simple_debug.py`.
 
 <figure markdown="span">
-  ![Image title](../assets/debug1.png){ width="300" }
+  ![Image title](../assets/debug1.png){ width="100%" }
 </figure>
 
 
@@ -16,7 +16,6 @@ You'll use features like **Step Into**, **Step Over,** and **Step Out**. These t
 
 Copy and paste the following code into your `simple_debug.py` file:
 
-Type or copy the following Python code into your file:
 ``` { .py }
 def add(a, b):
     sum = a + b
@@ -44,7 +43,7 @@ This code defines two functions: `add` (which adds two numbers) and `multiply` (
 2. Alternatively, press `Ctrl` + `Shift` + `D` 
 
 <figure markdown="span">
-  ![Image title](../assets/debug3.png){ width="300" }
+  ![Image title](../assets/debug3.png){ width="100%" }
 </figure>
 
 
@@ -59,7 +58,7 @@ Set breakpoints at:
 1. The line `result = add(result, x)` inside the `multiply()` function (to see when the `add()` function is called).
 
 <figure markdown="span">
-  ![Image title](../assets/debug4.gif){ width="300" }
+  ![Image title](../assets/debug4.gif){ width="100%" }
 </figure>
 
 
@@ -68,7 +67,7 @@ Set breakpoints at:
 2. Your code will run and pause at the breakpoint.
 
 <figure markdown="span">
-  ![Image title](../assets/debug5.gif){ width="300" }
+  ![Image title](../assets/debug5.gif){ width="100%" }
 </figure>
 
 
@@ -77,7 +76,7 @@ Set breakpoints at:
 2. **Inline code**: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
 
 <figure markdown="span">
-  ![Image title](../assets/debug6.png){ width="300" }
+  ![Image title](../assets/debug6.png){ width="100%" }
 </figure>
 
 
@@ -87,7 +86,7 @@ Set breakpoints at:
 3. Now you can see how the values `a` and `b` are added together.
 
 <figure markdown="span">
-  ![Image title](../assets/debug7.gif){ width="300" }
+  ![Image title](../assets/debug7.gif){ width="100%" }
 </figure>
 
 Tip: Use this to understand how each function works.
@@ -98,7 +97,7 @@ Tip: Use this to understand how each function works.
 2. This will finish the current function and take you back to the previous level in your code.
 
 <figure markdown="span">
-  ![Image title](../assets/debug8.gif){ width="300" }
+  ![Image title](../assets/debug8.gif){ width="100%" }
 </figure>
 
 ## Step Over: Skip the Function Details
@@ -107,7 +106,7 @@ Tip: Use this to understand how each function works.
 3. Use this to move through your code quickly when you don’t need to see every detail.
 
 <figure markdown="span">
-  ![Image title](../assets/debug9.gif){ width="300" }
+  ![Image title](../assets/debug9.gif){ width="100%" }
 </figure>
 
 ## Finish Debugging
@@ -115,5 +114,5 @@ Tip: Use this to understand how each function works.
 2. Check your terminal to see the output (it should display "Product is: 12").
 
 <figure markdown="span">
-  ![Image title](../assets/debug10.gif){ width="300" }
+  ![Image title](../assets/debug10.gif){ width="100%" }
 </figure>
