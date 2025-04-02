@@ -12,6 +12,7 @@ This guide is intended for:
 
 - Beginner to intermediate developers who want to enhance their coding efficiency and learn best practices for debugging and code management.
 - Developers transitioning from other editors or IDEs who wish to quickly get up to speed with VS Code's key functionalities.
+- Beginner developers who use Windows and want to connect VS Code to GitHub for collaborating efficiently with others.
 
 ## Prerequisite Knowledge
 
@@ -22,7 +23,8 @@ This documentation assumes you have:
 - Familiarity with Python and have the Python extension installed in VS Code.
 - Have used Python in the VS Code environment before.
 - Frontend experience with HTML.
-- Windows environment
+- A GitHub account
+- A Windows environment
 
 ## Software Requirements
 
@@ -43,20 +45,24 @@ The main sections covered in this documentation include:
 
 ## Typographical Conventions
 
-To make the instructions easy to follow, this guide will utilize:
+These instructions use the following typographic conventions:
+<br>
 
-**TBD**
+| **Convention Explanation** | **Examples** |
+|------------------------------|----------------|
+|Commands & Actions: Blue bolded verbs are commands or actions you need to perform for instructions.|Click, Type, Choose, Create|
+|Instructions that require you to run a command in terminal| <blockquote>run some command in the terminal |
 
-## Notes and Warning Messages
 
-Throughout the guide, you will see important notes highlighted clearly:
+## Admonitions
+This guide uses success, warning, and note messages to provide additional information for instruction steps.
 
 !!! warning
-    Highlights actions that could lead to unintended issues or errors if not followed carefully.
+    Warning provides information about instructions that can cause errors.
 
-!!! info
-    Provides additional context or useful tips to enhance your understanding.
+!!! note
+    Note provides additional information for a step.
 
 !!! success
-    Indicates successful completion or expected outcomes of an action.
+    Success provides information about the success outcome of instructions.
 
