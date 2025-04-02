@@ -1,14 +1,13 @@
 # Connecting to GitHub
 
 ## Overview
-In this section, you will 
-
+In this section, we will explore how to connect VS Code to GitHub seamlessly. This guide demonstrates how to connect GitHub to your VS Code workflow, allowing you to manage repositories, commit changes, and push code directly from the editor. By following these steps, you'll streamline version control and enhance collaboration, enabling you to focus on building projects.
 
 ## Option 1: In VS Code
-In this section, you know already how to create a new folder
+In this option, we assume that you already know how to create a new, empty folder on your computer.
 <br>
 
-## Open a folder and Create a file
+### Open a folder and Create a file
 1. Click the first icon (Explorer section) in the left navigation, and open a folder you want to save files.
 
     <figure markdown="span">
@@ -23,7 +22,8 @@ In this section, you know already how to create a new folder
 !!! success
     The folder has been opened and the new file has been created.
 
-## Open a new terminal and Type commands
+<h3 id="custom-anchor">Open a new terminal and Type commands</h3>
+
 1. In the top navigation, click the terminal option and the new terminal.
 
     <figure markdown="span">
@@ -35,7 +35,7 @@ In this section, you know already how to create a new folder
 !!! success
     The new terminal has been opened and some commands have been written.
 
-## Create a GitHub repository in the VS Code
+### Create a GitHub repository in the VS Code
 1. Click the third icon(Source Control) in the left navigation
 
     <figure markdown="span">
@@ -67,10 +67,10 @@ In this section, you know already how to create a new folder
 <br>
 
 ## Option 2: From GitHub
-In this case, we already expected you have GitHub account
+In this option, we assume that you already have a GitHub account.
 <br>
 
-## Create a new repository in the GitHub
+### Create a new repository in the GitHub
 1. Open the GitHub and sign in
 
     <figure markdown="span">
@@ -99,7 +99,7 @@ In this case, we already expected you have GitHub account
     !!! success
         The new GitHub repository has been created in the Github.
 
-## Clone the GitHub repository to the VS Code
+### Clone the GitHub repository to the VS Code
 1. Click "<>Code" green button
 
     <figure markdown="span">
@@ -112,9 +112,13 @@ In this case, we already expected you have GitHub account
       ![Image title](../assets/github6.jpg){ width="100%" }
     </figure>
 
-3. In the VS Code, open a new terminal
+3. In the VS Code, open a new terminal and type the command below to clone the GitHub repository
+> git clone THE COPIED LINK FROM GITHUB
 
     !!! note
         If you don't know how to open a new terminal, click the below sentence.
         <br>
-        [Open a new terminal and Type commands](#Open-a-new-terminal-and-Type-commands)
+        [Open a new terminal and Type commands](#custom-anchor)
+
+    !!! success
+        The GitHub repository has been cloned to the VS Code.
