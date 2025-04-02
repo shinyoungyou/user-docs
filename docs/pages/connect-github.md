@@ -14,7 +14,7 @@ In this option, we assume that you already know how to create a new empty folder
       ![Image title](images/step1.jpg){ width="100%" }
     </figure>
 
-2. In the Explorer section, <span style="color: #007ACC;">**click**</span> the one paper icon (New File...) to create a new file.
+2. In the Explorer section, <span style="color: #007ACC;">**click**</span> the single paper icon (New File...) to create a new file.
 
     <figure markdown="span">
       ![Image title](images/step2.jpg){ width="100%" }
@@ -35,8 +35,8 @@ In this option, we assume that you already know how to create a new empty folder
 !!! success
     The new terminal has been opened and some commands have been written.
 
-### Create a GitHub repository in the VS Code
-1. <span style="color: #007ACC;">**Click**</span> the third icon(Source Control) in the left navigation
+### Create a GitHub repository in VS Code
+1. <span style="color: #007ACC;">**Click**</span> the third icon (Source Control) in the left navigation
 
     <figure markdown="span">
       ![Image title](images/step5.jpg){ width="100%" }
@@ -48,7 +48,7 @@ In this option, we assume that you already know how to create a new empty folder
       ![Image title](images/step6.jpg){ width="100%" }
     </figure>
     !!! warning
-        If you can't find "Publish Branch" button, please check the Troubleshooting section.
+        If you can't find the "Publish Branch" button, please check the [Troubleshooting](./troubleshooting.md) section.
 
 3. <span style="color: #007ACC;">**Click**</span> the Allow button, and <span style="color: #007ACC;">**sign in**</span> using GitHub
 
@@ -68,14 +68,14 @@ In this option, we assume that you already know how to create a new empty folder
 
 ## Option 2: From GitHub
 
-### Create a new repository in the GitHub
+### Create a new repository on GitHub
 1. <span style="color: #007ACC;">**Open**</span> the GitHub and sign in
 
     <figure markdown="span">
       ![Image title](../assets/github1.gif){ width="100%" }
     </figure>
 
-2. <span style="color: #007ACC;">**Choose**</span> "Your repositories" clicking your profile image and click "New" green button
+2. <span style="color: #007ACC;">**Choose**</span> "Your repositories" by clicking your profile image and click the green "New" button
 
     <figure markdown="span">
       ![Image title](../assets/github2.gif){ width="100%" }
@@ -87,17 +87,17 @@ In this option, we assume that you already know how to create a new empty folder
       ![Image title](../assets/github3.jpg){ width="100%" }
     </figure>
     !!! note
-        If you want to make the repository private, choose "private" option
+        If you want to make the repository private, choose the "private" option
 
-4. <span style="color: #007ACC;">**Click**</span> "Create repository" green button in the bottom
+4. <span style="color: #007ACC;">**Click**</span> the green "Create repository" button in the bottom
 
     <figure markdown="span">
       ![Image title](../assets/github4.jpg){ width="100%" }
     </figure>
     !!! success
-        The new GitHub repository has been created in the Github.
+        The new GitHub repository has been created on Github.
 
-### Clone the GitHub repository to the VS Code
+### Clone the GitHub repository in VS Code
 1. <span style="color: #007ACC;">**Click**</span> "<>Code" green button
 
     <figure markdown="span">
@@ -110,16 +110,16 @@ In this option, we assume that you already know how to create a new empty folder
       ![Image title](../assets/github6.jpg){ width="100%" }
     </figure>
 
-3. In the VS Code, <span style="color: #007ACC;">**open**</span> a new terminal and <span style="color: #007ACC;">**type**</span> the command below to clone the GitHub repository
+3. In VS Code, <span style="color: #007ACC;">**open**</span> a new terminal and <span style="color: #007ACC;">**type**</span> the command below to clone the GitHub repository
 > git clone THE COPIED LINK FROM GITHUB
 
     !!! note
-        If you don't know how to open a new terminal, click the below sentence.
+        If you don't know how to open a new terminal, click the sentence below.
         <br>
         [Open a new terminal and Type commands](#custom-anchor)
 
     !!! success
-        The GitHub repository has been cloned to the VS Code.
+        The GitHub repository has been cloned to VS Code.
 
 <br>
 
@@ -129,3 +129,5 @@ By the end of this section, you will have successfully learned the following:
 :white_check_mark: How to create a new GitHub repository directly in VS Code
 
 :white_check_mark: How to clone a GitHub repository from GitHub
+
+<br>
