@@ -120,3 +120,12 @@ In this option, we assume that you already know how to create a new empty folder
 
     !!! success
         The GitHub repository has been cloned to the VS Code.
+
+<br>
+
+## Conclusion
+By the end of this section, you will have successfully learned the following:
+
+:white_check_mark: How to create a new GitHub repository directly in VS Code
+
+:white_check_mark: How to clone a GitHub repository from GitHub
