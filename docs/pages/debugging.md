@@ -46,8 +46,9 @@ main()
 
 
 ## Set Breakpoints
-1. Set a breakpoint at the line `result = add(result, x)` inside the `multiply()` function to see when the `add()` function is called.
-2. Move your mouse over the left side of the line numbers. You’ll see a dim red dot appear. Click it to set a breakpoint (it turns into a solid red dot).
+We will set a breakpoint at the line `result = add(result, x)` inside the `multiply()` function to see when the `add()` function is called.
+
+1. Move your mouse over the left side of the line numbers. You’ll see a dim red dot appear. Click it to set a breakpoint (it turns into a solid red dot).
 
 !!! note
     Breakpoints allow you to pause your program at specific lines to see what is happening.
