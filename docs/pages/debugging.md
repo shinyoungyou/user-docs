@@ -60,15 +60,16 @@ main()
 
 ## Start Debugging
 1. Click the **Run and Debug** button at the top of the Debug panel.
-2. Your code will run and pause at the breakpoint.
 
 <figure markdown="span">
   ![Image title](../assets/debug5.gif){ width="100%" }
 </figure>
 
+Your code will run and pause at the breakpoint.
+
 
 ## Inspect Variables
-1. You can inspect variables in two ways:
+1. Inspect variables in two ways:
 
     - Variables section: When the code pauses at a breakpoint, you can see the current values of your variables in the Variables section on the left side of the Debug panel. 
     - Inline code: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
@@ -84,45 +85,48 @@ main()
 
 
 ## Step Into: See Inside a Function
-1. When you reach the line `result = add(result, x)` in the `multiply()` function, click the **Step Into** button (down arrow icon).
-2. VS Code will take you inside the `add()` function.
-3. Now you can see how the values `a` and `b` are added together.
-
-!!! note
-      Use the **Step Into** to understand how each function works.
+1. Click the **Step Into** button (down arrow icon) when you reach the line `result = add(result, x)` in the `multiply()` function.
 
 <figure markdown="span">
   ![Image title](../assets/debug7.gif){ width="100%" }
 </figure>
+  
+  VS Code will take you inside the `add()` function. Now you can see how the values `a` and `b` are added together.
 
-
+!!! note
+      Use the **Step Into** to understand how each function works.
 
 
 ## Step Out: Exit the Current Function
-1. If you are inside a function (like `add()`) and want to return to the function that called it, click the **Step Out** button (up arrow icon).
-2. This will finish the current function and take you back to the previous level in your code.
-
-!!! note
-      Use the **Step Out** when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
+1. Click the **Step Out** button (up arrow icon) if you are inside a function (like `add()`) and want to return to the function that called it. 
 
 <figure markdown="span">
   ![Image title](../assets/debug8.gif){ width="100%" }
 </figure>
 
-## Step Over: Skip the Function Details
-1. If you don’t want to see inside the `add()` function, you can click the **Step Over** button (curved arrow icon).
-2. This will execute the `add()` function but not show its inner workings.
-3. Use this to move through your code quickly when you don’t need to see every detail.
+The **Step Out** will finish the current function and take you back to the previous level in your code.
 
-!!! Warning
-      The **Step Over** won’t let you see their internal operations. Use the **Step Over** when you’re confident that the function is working as expected, or when you need to move quickly through your code.
+!!! note
+      Use the **Step Out** when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
+
+
+
+## Step Over: Skip the Function Details
+1. Click the **Step Over** button (curved arrow icon) to quickly move to the next line,
+rather than watching the details inside the `add()` function. 
 
 <figure markdown="span">
   ![Image title](../assets/debug9.gif){ width="100%" }
 </figure>
 
+The **Step Over**  will execute the `add()` function but not show its inner workings.
+
+!!! Warning
+      The **Step Over** won’t let you see their internal operations. Use the **Step Over** when you’re confident that the function is working as expected, or when you need to move quickly through your code.
+
+
 ## Finish Debugging
-1. When you’re done, click the stop button (red square) to stop debugging.
+1. Click the stop button (red square) to stop debugging.
 2. Check your terminal to see the output (it should display `Product is: 12`).
 
 <figure markdown="span">
