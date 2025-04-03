@@ -1,7 +1,7 @@
 # Connecting to GitHub
 
 ## Overview
-In this section, we will explore how to connect VS Code to GitHub seamlessly. This guide demonstrates how to connect GitHub to your VS Code workflow, allowing you to manage repositories, commit changes, and push code directly from the editor. By following these steps, you'll streamline version control and enhance collaboration, enabling you to focus on building projects.
+In this section, we will explore how to connect VS Code to GitHub seamlessly. This guide demonstrates how to connect GitHub to your VS Code workflow, allowing you to manage repositories, commit changes, and push code directly from the editor. By following these steps, you'll streamline version control and enhance collaboration, enabling you to focus on building projects. Let's start by creating repository, and there are two way to create repository.
 
 ## Option 1: Creating Repository In VS Code
 In this option, we assume that you already know how to create a new empty folder on your computer.
