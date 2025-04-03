@@ -51,7 +51,7 @@ These instructions use the following typographic conventions:
 | **Convention Explanation** | **Examples** |
 |------------------------------|----------------|
 |Commands & Actions: Bolded verbs are commands or actions you need to perform for instructions.|**Click, Type, Choose, Create**|
-|Glossary terms: Enclose glossary terms in double quotes| "Step Into", "Step Out", "Step Over"|
+|Glossary terms & UI element names (e.g. button names): double quoted| "Step Into", "<> Code"|
 |Instructions that require you to run a command in terminal| <blockquote>run some command in the terminal |
 
 
