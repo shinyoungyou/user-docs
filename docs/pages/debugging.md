@@ -1,11 +1,11 @@
 # Debugging in VS Code
 
 ## Introduction
-In this section, we will talk about how to debug your Python code using VS Code. Whether you're a beginner or looking to refine your debugging skills, this guide provides step-by-step instructions on configuring breakpoints, and using debugging features like **Step Into**, **Step Over,** and **Step Out**. By following this guide, you’ll learn how to inspect variables, understand function internals, and troubleshoot your code effectively.
+In this section, we will talk about how to debug your Python code using VS Code. Whether you're a beginner or looking to refine your debugging skills, this guide provides step-by-step instructions on configuring breakpoints, and using debugging features like "Step Into", "Step Over," and "Step Out". By following this guide, you’ll learn how to inspect variables, understand function internals, and troubleshoot your code effectively.
 
 ## Enter the Code Example
 
-1. Copy and paste the following code into a new file:
+1. <span >**Copy**</span> and <span >**paste**</span> the following code into a new file:
 ``` { .py }
 def add(a, b):
     sum = a + b
@@ -35,7 +35,7 @@ main()
 
 ## Open the Debug panel
 
-1. Click the **Run and Debug** icon (the bug icon) on the left sidebar.
+1. <span >**Click**</span> the "Run and Debug" icon (the bug icon) on the left sidebar.
 
     !!! shortcut
         Alternatively, press `Ctrl` + `Shift` + `D`. 
@@ -48,7 +48,8 @@ main()
 ## Set Breakpoints
 We will set a breakpoint at the line `result = add(result, x)` inside the `multiply()` function to see when the `add()` function is called.
 
-1. Move your mouse over the left side of the line numbers. You’ll see a dim red dot appear. Click it to set a breakpoint (it turns into a solid red dot).
+1. <span >**Move**</span> your mouse over the left side of the line numbers. You’ll see a dim red dot appear. 
+2. <span >**Click**</span> the dim red dot to set a breakpoint (it turns into a solid red dot).
 
 !!! note
     Breakpoints allow you to pause your program at specific lines to see what is happening.
@@ -60,7 +61,7 @@ We will set a breakpoint at the line `result = add(result, x)` inside the `multi
 
 
 ## Start Debugging
-1. Click the **Run and Debug** button at the top of the Debug panel.
+1. <span >**Click**</span> the "Run and Debug" button at the top of the Debug panel.
 
 <figure markdown="span">
   ![Image title](../assets/debug5.gif){ width="100%" }
@@ -70,7 +71,7 @@ Your code will run and pause at the breakpoint.
 
 
 ## Inspect Variables
-1. Inspect variables in two ways:
+1. <span >**Inspect**</span> variables in two ways:
 
     - Variables section: When the code pauses at a breakpoint, you can see the current values of your variables in the Variables section on the left side of the Debug panel. 
     - Inline code: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
@@ -86,49 +87,54 @@ Your code will run and pause at the breakpoint.
 
 
 ## Step Into: See Inside a Function
-1. Click the **Step Into** button (down arrow icon) when you reach the line `result = add(result, x)` in the `multiply()` function.
+1. <span >**Click**</span> the "Step Into" button (down arrow icon) when you reach the line `result = add(result, x)` in the `multiply()` function.
+
+      VS Code will take you inside the `add()` function. 
 
 <figure markdown="span">
   ![Image title](../assets/debug7.gif){ width="100%" }
 </figure>
-  
-  VS Code will take you inside the `add()` function. Now you can see how the values `a` and `b` are added together.
+
+  Now you can see how the values `a` and `b` are added together.
 
 !!! note
-      Use the **Step Into** to understand how each function works.
+      Use the "Step Into" to understand how each function works.
+  
+
 
 
 ## Step Out: Exit the Current Function
-1. Click the **Step Out** button (up arrow icon) if you are inside a function (like `add()`) and want to return to the function that called it. 
+1.  <span >**Click**</span> the "Step Out" button (up arrow icon) if you are inside a function (like `add()`) and want to return to the function that called it. 
 
+    The "Step Out" will finish the current function and take you back to the previous level in your code.
 <figure markdown="span">
   ![Image title](../assets/debug8.gif){ width="100%" }
 </figure>
 
-The **Step Out** will finish the current function and take you back to the previous level in your code.
-
 !!! note
-      Use the **Step Out** when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
+      Use the "Step Out" when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
 
 
 
 ## Step Over: Skip the Function Details
-1. Click the **Step Over** button (curved arrow icon) to quickly move to the next line,
+1. <span >**Click**</span> the "Step Over" button (curved arrow icon) to quickly move to the next line,
 rather than watching the details inside the `add()` function. 
+
+    The "Step Over" will execute the `add()` function but not show its inner workings.
+
 
 <figure markdown="span">
   ![Image title](../assets/debug9.gif){ width="100%" }
 </figure>
 
-The **Step Over**  will execute the `add()` function but not show its inner workings.
 
 !!! Warning
-      The **Step Over** won’t let you see their internal operations. Use the **Step Over** when you’re confident that the function is working as expected, or when you need to move quickly through your code.
+      The "Step Over" won’t let you see their internal operations. Use the "Step Over" when you’re confident that the function is working as expected, or when you need to move quickly through your code.
 
 
 ## Finish Debugging
-1. Click the stop button (red square) to stop debugging.
-2. Check your terminal to see the output (it should display `Product is: 12`).
+1. <span >**Click**</span> the stop button (red square) to stop debugging.
+2. <span >**Check**</span> your terminal to see the output (it should display `Product is: 12`).
 
 <figure markdown="span">
   ![Image title](../assets/debug10.gif){ width="100%" }

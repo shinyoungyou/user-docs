@@ -11,7 +11,7 @@ This set shows how to use the multi-cursor feature in two common scenarios:
 - Placing Multi-Cursor: Adding an attribute to each list item in a simple HTML list.
 
 ### Example 1: Renaming Repeated Code
-1. Copy and paste the following HTML structure into a new file:
+1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file:
 ``` { .html }
 <!DOCTYPE html>
 <html lang="en">
@@ -44,13 +44,13 @@ This set shows how to use the multi-cursor feature in two common scenarios:
 You now have multiple `<div class="card">` elements.
 Let's say you want to change the class name `card` to `box`.
 
-2. Select the Text to Edit: Highlight one of the word `card`.
+2. Select the Text to Edit: <span >**Highlight**</span> one of the word `card`.
 
 
     !!! warning
         Ensure that only the intended words are selected to prevent unwanted edits.
 
-3. Select More Matches: There are two options to select more matches, depending on your preference.
+3. <span >**Select**</span> More Matches: There are two options to select more matches, depending on your preference.
     - One by One: While holding down `Ctrl`, press `D` repeatedly to select the next matching word each time.
 
       <figure markdown="span">
@@ -64,7 +64,7 @@ Let's say you want to change the class name `card` to `box`.
       </figure>
 
 
-4. Edit the Text: Once selected, type `box`. Then, all selected words will change at the same time.
+4. Edit the Text: Once selected, <span >**type**</span> `box`. Then, all selected words will change at the same time.
 
       <figure markdown="span">
         ![Image title](../assets/code3.gif){ width="100%" }
@@ -72,7 +72,7 @@ Let's say you want to change the class name `card` to `box`.
 
 
 ### Example 2: Place Multi-Cursor
-1. Copy and paste the following HTML structure into a new file:
+1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file:
 ``` { .html }
 <!DOCTYPE html>
 <html lang="en">
@@ -92,14 +92,14 @@ Let's say you want to change the class name `card` to `box`.
 </html>
 ```
 Now, you want to add `class="item"` to each `<li>` tag.
-2. Click directly between the `li` and `>` of the first `<li>` tag where you want to insert the attribute.
+2. <span >**Click**</span> directly between the `li` and `>` of the first `<li>` tag where you want to insert the attribute.
 
 
     !!! warning
         Make sure your cursors are positioned correctly. Incorrect placement may result in malformed HTML.
 
-3. While Holding down the `Ctrl` + `Alt` keys, press the down arrow key (`↓`) repeatedly.
-4. Type `class="item"`, then each element will have the class attribute set to `item`.
+3. While <span >**holding down**</span> the `Ctrl` + `Alt` keys, <span >**press**</span> the down arrow key (`↓`) repeatedly.
+4. <span >**Type**</span>  `class="item"`, then each element will have the class attribute set to `item`.
 
       <figure markdown="span">
         ![Image title](../assets/code4.gif){ width="100%" }
@@ -110,8 +110,8 @@ Now, you want to add `class="item"` to each `<li>` tag.
 ## Quickly Close Multiple Tabs
 When you have many open tabs, VS Code gives you easy ways to close tabs without doing it one by one, so you can clean up your editor quickly and get back to coding.
 
-1. Right-click on any open tab.
-2. Choose a Tab Closing Option:
+1. <span >**Right-click**</span> on any open tab.
+2. <span >**Choose**</span> a Tab Closing Option:
     - `Close`: Closes the current tab.
     - `Close Others`: Closes all tabs except the active one.
     - `Close to the Right`: Closes all tabs to the right of the current tab.
@@ -124,22 +124,24 @@ When you have many open tabs, VS Code gives you easy ways to close tabs without 
 
 ## Open Files Quickly by Searching
 Finding files in large projects can be time-consuming. 
-If you can’t remember the exact location, use **Quick Open** to locate your files instantly.
+If you can’t remember the exact location, use "Quick Open" to locate your files instantly.
 
-1. Press `Ctrl` + `P` to open the **Quick Open** dialog.
-2. Search for Your File: Type part of the file name. VS Code will display a list of matching files, including those recently or frequently opened.
+1. <span >**Press**</span> `Ctrl` + `P` to open the "Quick Open" dialog.
+2. Search for Your File: <span >**Type**</span> part of the file name. 
+
+    VS Code will display a list of matching files, including those recently or frequently opened.
     
     !!! note
         The more specific you are with the file name, the quicker you’ll find the file you need.
 
-3. Select and Open the File: Use the arrow keys (`↑` / `↓`) to navigate the list, then press `Enter` to open the file.
+3. Select and Open the File: <span >**Use**</span>  the arrow keys (`↑` / `↓`) to navigate the list, then <span >**press**</span> `Enter` to open the file.
 
     <figure markdown="span">
       ![Image title](../assets/code6.gif){ width="100%" }
     </figure>
 
 !!! success
-    Using the **Quick Open** is much faster than browsing through the folder structure manually!
+    Using the "Quick Open" is much faster than browsing through the folder structure manually!
 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:
