@@ -1,6 +1,6 @@
 | **Instructions** | **Symptoms** | **Probable Cause** | **Action** |
 | ------------ | ------------ | ------------------ | ---------- |
-|`GitHub`|Publish Branch button is not visible|No local commits exist, VS Code is not connected due to GitHub authentication issues, or VS Code UI is changed|Commit your changes first, then click "Add Remote" blue button in the popup at the bottom right, and press the ESC key.|
+|`GitHub`|"Publish Branch" button is not visible|No local commits exist, VS Code is not connected due to GitHub authentication issues, or VS Code UI is changed|Commit your changes first, then click "Add Remote" blue button in the popup at the bottom right, and press the ESC key.(The "Publish Branch" button could show up as soon as you commit your change.)|
 |`GitHub`|Errors occur when using git commands in the terminal|Git may not be installed, or the PATH setting is incorrect|Ensure Git is properly installed and verify your PATH environment variable settings.|
 |`Code Efficiently`|Selected text isn’t updating across all instances.|Not all matching instances were selected.|Use "Select All at Once" (Ctrl+Shift+L) or ensure you repeatedly press Ctrl+D to include every match.|
 |`Code Efficiently`|Some tabs remain open despite using tab closing commands.|Unsaved changes or active unsaved file prompts may prevent closure.|Save your files and try again, or close VS Code and reopen it if the issue persists.|
