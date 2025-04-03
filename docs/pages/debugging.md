@@ -147,6 +147,6 @@ rather than watching the details inside the `add()` function.
 ## Conclusion
 By the end of this section, you will have successfully learned the following:
 
-1. How to set up, run, and inspect your Python code using the VS Code debugger
-2. How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
-3. How to effectively troubleshoot and refine your code during debugging
+:white_check_mark: How to set up, run, and inspect your Python code using the VS Code debugger
+:white_check_mark: How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
+:white_check_mark: How to effectively troubleshoot and refine your code during debugging
