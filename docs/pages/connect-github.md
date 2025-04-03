@@ -98,7 +98,7 @@ In this option, we assume that you already know how to create a new empty folder
         The new GitHub repository has been created on Github.
 
 ### Clone the GitHub repository in VS Code
-1. **Click** "<>Code" green button
+1. **Click** the green "<> Code" button
 
     <figure markdown="span">
       ![Image title](../assets/github5.jpg){ width="100%" }
