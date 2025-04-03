@@ -50,7 +50,7 @@ These instructions use the following typographic conventions:
 
 | **Convention Explanation** | **Examples** |
 |------------------------------|----------------|
-|Commands & Actions: Blue bolded verbs are commands or actions you need to perform for instructions.|**Click, Type, Choose, Create**|
+|Commands & Actions: Bolded verbs are commands or actions you need to perform for instructions.|**Click, Type, Choose, Create**|
 |Instructions that require you to run a command in terminal| <blockquote>run some command in the terminal |
 
 

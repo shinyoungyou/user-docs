@@ -27,7 +27,7 @@ We used VS Code to write our Markdown files. While we relied on its built-in pre
 
 Consistency and Style:
 
-Our documentation maintains a unified appearance by consistently formatting actionable verbs in bold blue text and displaying commands in dedicated code blocks. This approach makes it clear what actions to take.
+Our documentation maintains a unified appearance by consistently formatting actionable verbs in bold text and displaying commands in dedicated code blocks. This approach makes it clear what actions to take.
 
 
 Visual Aids:
