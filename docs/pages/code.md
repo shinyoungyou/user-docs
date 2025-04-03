@@ -148,5 +148,7 @@ If you can’t remember the exact location, use "Quick Open" to locate your file
 By the end of this section, you will have successfully learned the following:
 
 :white_check_mark: How to use multi-cursor editing to modify code simultaneously
+
 :white_check_mark: How to quickly manage multiple tabs for a cleaner workspace
+
 :white_check_mark: How to use fast file search to open files efficiently
