@@ -16,4 +16,3 @@
 |`Debugging`|Step Into|A debugging command that moves into a function call so you can see its internal operations.|
 |`Debugging`|Step Over|A debugging command that executes a function call without entering it, letting you quickly move to the next line.|
 |`Debugging`|Step Out|A debugging command that finishes executing the current function and returns you to the calling function.|
-|`Debugging`|Variables|The current values of data items in your program, shown in the Variables panel or inline while debugging.|
