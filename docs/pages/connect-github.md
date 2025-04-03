@@ -75,7 +75,7 @@ In this option, we assume that you already know how to create a new empty folder
       ![Image title](../assets/github1.gif){ width="100%" }
     </figure>
 
-2. **Choose** "Your repositories" by clicking your profile image and click the green "New" button
+2. **Choose** Your repositories section by clicking your profile image and click the green "New" button
 
     <figure markdown="span">
       ![Image title](../assets/github2.gif){ width="100%" }
