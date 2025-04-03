@@ -81,7 +81,7 @@ In this option, we assume that you already know how to create a new empty folder
       ![Image title](../assets/github2.gif){ width="100%" }
     </figure>
 
-3. **Write** a new repository name and **check** the "Add a README file" section
+3. **Write** a new repository name and **check** the Add a README file section
 
     <figure markdown="span">
       ![Image title](../assets/github3.jpg){ width="100%" }
