@@ -61,20 +61,18 @@ We will set a breakpoint at the line `result = add(result, x)` inside the `multi
 
 
 ## Start Debugging
-1. <span >**Click**</span> the "Run and Debug" button at the top of the Debug panel.
+1. <span >**Click**</span> the "Run and Debug" button at the top of the Debug panel. Your code will run and pause at the breakpoint.
 
 <figure markdown="span">
   ![Image title](../assets/debug5.gif){ width="100%" }
 </figure>
 
-Your code will run and pause at the breakpoint.
-
 
 ## Inspect Variables
-1. <span >**Inspect**</span> variables in two ways:
+1. There are two options to <span >**inspect**</span> variables. 
 
-    - Variables section: When the code pauses at a breakpoint, you can see the current values of your variables in the Variables section on the left side of the Debug panel. 
-    - Inline code: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
+    - Option 1: Variables section<br>When the code pauses at a breakpoint, you can see the current values of your variables in the Variables section on the left side of the Debug panel. 
+    - Option 2: Inline code<br>You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
 
     !!! note
         Keeping an eye on variables helps you quickly identify where issues may occur in your code.

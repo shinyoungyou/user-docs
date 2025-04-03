@@ -7,10 +7,10 @@ In this section, we will talk about editing code efficiently in VS Code. This gu
 
 This set shows how to use the multi-cursor feature in two common scenarios:
 
-- Renaming Repeated Code: Changing a repeated class name across multiple HTML elements.
-- Placing Multi-Cursor: Adding an attribute to each list item in a simple HTML list.
+- Scenario 1: Renaming Repeated Code <br>Changing a repeated class name across multiple HTML elements.
+- Scenario 2: Placing Multi-Cursor <br>Adding an attribute to each list item in a simple HTML list.
 
-### Example 1: Renaming Repeated Code
+### Scenario 1: Renaming Repeated Code
 1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file:
 ``` { .html }
 <!DOCTYPE html>
@@ -51,13 +51,14 @@ Let's say you want to change the class name `card` to `box`.
         Ensure that only the intended words are selected to prevent unwanted edits.
 
 3. <span >**Select**</span> More Matches: There are two options to select more matches, depending on your preference.
-    - One by One: While holding down `Ctrl`, press `D` repeatedly to select the next matching word each time.
+
+      - Option 1: Selct One by One <br>While **holding down** `Ctrl`, **press** `D` repeatedly to select the next matching word each time.
 
       <figure markdown="span">
         ![Image title](../assets/code1.gif){ width="100%" }
       </figure>
     
-    - Select All at Once: After selecting one of the words, press `Ctrl` + `Shift` + `L` to select all matching words in the file at once
+    - Option 2: Select All at Once<br>After selecting one of the words, **press** `Ctrl` + `Shift` + `L` to select all matching words in the file at once
 
       <figure markdown="span">
         ![Image title](../assets/code2.gif){ width="100%" }
