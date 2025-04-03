@@ -1,6 +1,6 @@
 # Debugging in VS Code
 
-## Introduction
+## Overview
 In this section, we will talk about how to debug your Python code using VS Code. Whether you're a beginner or looking to refine your debugging skills, this guide provides step-by-step instructions on configuring breakpoints, and using debugging features like "Step Into", "Step Over," and "Step Out". By following this guide, you’ll learn how to inspect variables, understand function internals, and troubleshoot your code effectively.
 
 ## Enter the Code Example

@@ -1,5 +1,5 @@
 # Editing Code Efficiently in VS Code
-## Introduction
+## Overview
 In this section, we will talk about editing code efficiently in VS Code. This guide shows how to make your HTML editing faster and smarter using features, such as multi-cursor editing, quickly closing multiple tabs, and fast file searching. These tips will help you save time, reduce repetitive work, and focus on more creative and meaningful tasks in your projects.
 
 
