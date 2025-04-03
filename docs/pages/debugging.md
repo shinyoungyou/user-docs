@@ -1,21 +1,11 @@
 # Debugging in VS Code
-In this section, we will talk about how to debug your Python code using VS Code. 
-You'll use features like **Step Into**, **Step Over,** and **Step Out**. These tools help you see what happens inside your functions and loops. We’ll use a simple program that adds and multiplies numbers.
 
-## Create Your Python File
-1. Open VS Code.
-2. Open a folder where you want to work.
-3. Create a new file and name it `simple_debug.py`.
+## Introduction
+In this section, we will talk about how to debug your Python code using VS Code. Whether you're a beginner or looking to refine your debugging skills, this guide provides step-by-step instructions on configuring breakpoints, and using debugging features like **Step Into**, **Step Over,** and **Step Out**. By following this guide, you’ll learn how to inspect variables, understand function internals, and troubleshoot your code effectively.
 
-<figure markdown="span">
-  ![Image title](../assets/debug1.png){ width="100%" }
-</figure>
+## Enter the Code Example
 
-
-## Enter the Code
-
-Copy and paste the following code into your `simple_debug.py` file:
-
+1. Copy and paste the following code into a new file:
 ``` { .py }
 def add(a, b):
     sum = a + b
@@ -35,12 +25,20 @@ def main():
 
 main()
 ```
-This code defines two functions: `add` (which adds two numbers) and `multiply` (which uses repeated addition to multiply two numbers). The `main` function calls `multiply` and prints the result.
+
+    !!! Note
+        This code defines three functions:
+
+          - `add()`: Adds two numbers.
+          - `multiply()`: Uses repeated addition to multiply two numbers.
+          - `main()`: Calls `multiply()` and prints the result.
 
 ## Open the Debug panel
 
-1. Click the Run and Debug icon (the bug icon) on the left sidebar.
-2. Alternatively, press `Ctrl` + `Shift` + `D` 
+1. Click the **Run and Debug** icon (the bug icon) on the left sidebar.
+
+    !!! shortcut
+        Alternatively, press `Ctrl` + `Shift` + `D`. 
 
 <figure markdown="span">
   ![Image title](../assets/debug3.png){ width="100%" }
@@ -48,14 +46,12 @@ This code defines two functions: `add` (which adds two numbers) and `multiply` (
 
 
 ## Set Breakpoints
-Breakpoints allow you to pause your program at specific lines to see what is happening.
+1. Set a breakpoint at the line `result = add(result, x)` inside the `multiply()` function to see when the `add()` function is called.
+2. Move your mouse over the left side of the line numbers. You’ll see a dim red dot appear. Click it to set a breakpoint (it turns into a solid red dot).
 
-1. Move your mouse over the left side of the line numbers.
-2. You'll notice a dim red dot appear. Click on it, and it will turn into a solid red dot, indicating that a breakpoint has been set.
+!!! note
+    Breakpoints allow you to pause your program at specific lines to see what is happening.
 
-Set breakpoints at:
-
-1. The line `result = add(result, x)` inside the `multiply()` function (to see when the `add()` function is called).
 
 <figure markdown="span">
   ![Image title](../assets/debug4.gif){ width="100%" }
@@ -63,7 +59,7 @@ Set breakpoints at:
 
 
 ## Start Debugging
-1. Click the `Run and Debug` button at the top of the Debug panel.
+1. Click the **Run and Debug** button at the top of the Debug panel.
 2. Your code will run and pause at the breakpoint.
 
 <figure markdown="span">
@@ -71,13 +67,20 @@ Set breakpoints at:
 </figure>
 
 
-## Where to Inspect Variables
-1. **Variables section**: When the code pauses at a breakpoint, you can see the current values of your variables in the **Variables** section on the left side of the Debug panel. 
-2. **Inline code**: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
+## Inspect Variables
+1. You can inspect variables in two ways:
 
-<figure markdown="span">
-  ![Image title](../assets/debug6.png){ width="100%" }
-</figure>
+    - Variables section: When the code pauses at a breakpoint, you can see the current values of your variables in the Variables section on the left side of the Debug panel. 
+    - Inline code: You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
+
+    !!! note
+        Keeping an eye on variables helps you quickly identify where issues may occur in your code.
+
+    <figure markdown="span">
+      ![Image title](../assets/debug6.png){ width="100%" }
+    </figure>
+
+
 
 
 ## Step Into: See Inside a Function
@@ -85,16 +88,22 @@ Set breakpoints at:
 2. VS Code will take you inside the `add()` function.
 3. Now you can see how the values `a` and `b` are added together.
 
+!!! note
+      Use the **Step Into** to understand how each function works.
+
 <figure markdown="span">
   ![Image title](../assets/debug7.gif){ width="100%" }
 </figure>
 
-Tip: Use this to understand how each function works.
+
 
 
 ## Step Out: Exit the Current Function
 1. If you are inside a function (like `add()`) and want to return to the function that called it, click the **Step Out** button (up arrow icon).
 2. This will finish the current function and take you back to the previous level in your code.
+
+!!! note
+      Use the **Step Out** when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
 
 <figure markdown="span">
   ![Image title](../assets/debug8.gif){ width="100%" }
@@ -105,14 +114,28 @@ Tip: Use this to understand how each function works.
 2. This will execute the `add()` function but not show its inner workings.
 3. Use this to move through your code quickly when you don’t need to see every detail.
 
+!!! Warning
+      The **Step Over** won’t let you see their internal operations. Use the **Step Over** when you’re confident that the function is working as expected, or when you need to move quickly through your code.
+
 <figure markdown="span">
   ![Image title](../assets/debug9.gif){ width="100%" }
 </figure>
 
 ## Finish Debugging
-1. When you’re done, click the red square (stop button) to stop debugging.
-2. Check your terminal to see the output (it should display "Product is: 12").
+1. When you’re done, click the stop button (red square) to stop debugging.
+2. Check your terminal to see the output (it should display `Product is: 12`).
 
 <figure markdown="span">
   ![Image title](../assets/debug10.gif){ width="100%" }
 </figure>
+
+
+!!! success
+    Debugging is complete. If the output is as expected, your code is functioning correctly!
+
+## Conclusion
+By the end of this section, you will have successfully learned the following:
+
+1. How to set up, run, and inspect your Python code using the VS Code debugger
+2. How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
+3. How to effectively troubleshoot and refine your code during debugging
