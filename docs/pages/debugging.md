@@ -74,13 +74,13 @@ We will set a breakpoint at the line `result = add(result, x)` inside the `multi
 
 
 ## Inspect Variables
+
+Inspecting variables helps you quickly identify where issues may occur in your code.
+
 1. There are two options to <span >**inspect**</span> variables. 
 
     - Option 1: Variables section<br>When the code pauses at a breakpoint, you can see the current values of your variables in the Variables section on the left side of the Debug panel. 
     - Option 2: Inline code<br>You can also see the current values for variables (like `i` and `y`) displayed inline in the code, making it easy to track them as you step through.
-
-    !!! note
-        Keeping an eye on variables helps you quickly identify where issues may occur in your code.
 
     <figure markdown="span">
       ![Image title](../assets/debug6.png){ width="100%" }
@@ -90,41 +90,57 @@ We will set a breakpoint at the line `result = add(result, x)` inside the `multi
 
 
 ## Step Into: See Inside a Function
+
+Use the "Step Into" to understand how each function works.
+
 1. <span >**Click**</span> the "Step Into" button (down arrow icon) when you reach the line `result = add(result, x)` in the `multiply()` function.
 
       VS Code will take you inside the `add()` function. 
 
+2. When you’re inside `add()`, **click** "Step Into" again to move to the next line.
+
+    Since the function is short, it may return quickly and take you back to the `multiply()` function right away.
+
+!!! notes
+     Once the inner function finishes, you'll be taken back to the point where it was called.
 <figure markdown="span">
   ![Image title](../assets/debug7.gif){ width="100%" }
 </figure>
 
   Now you can see how the values `a` and `b` are added together.
 
-!!! note
-      Use the "Step Into" to understand how each function works.
-  
-
-
 
 ## Step Out: Exit the Current Function
+
+Use the "Step Out" when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
+
 1.  <span >**Click**</span> the "Step Out" button (up arrow icon) if you are inside a function (like `add()`) and want to return to the function that called it. 
 
     The "Step Out" will finish the current function and take you back to the previous level in your code.
+
+2. **Click** "Step Out" again after returning to the calling function.
+
+    The debugger will continue running until the current function finishes or it hits another breakpoint.
+
+!!! notes
+    If there are no more breakpoints, the program may run to the end and exit.
 <figure markdown="span">
   ![Image title](../assets/debug8.gif){ width="100%" }
 </figure>
 
-!!! note
-      Use the "Step Out" when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
-
-
 
 ## Step Over: Skip the Function Details
+
+Use the "Step Over" when you want to focus on the current function and skip over lower-level details.
+
 1. <span >**Click**</span> the "Step Over" button (curved arrow icon) to quickly move to the next line,
 rather than watching the details inside the `add()` function. 
 
     The "Step Over" will execute the `add()` function but not show its inner workings.
 
+2. **Click** "Step Over" again.
+    
+    The debugger will continue to the next line in the current function, executing one line at a time.
 
 <figure markdown="span">
   ![Image title](../assets/debug9.gif){ width="100%" }
@@ -132,12 +148,18 @@ rather than watching the details inside the `add()` function.
 
 
 !!! Warning
-      The "Step Over" won’t let you see their internal operations. Use the "Step Over" when you’re confident that the function is working as expected, or when you need to move quickly through your code.
+      The "Step Over" won’t let you see a function’s internal operations. Use it when you’re confident that the function works as expected, or when you want to move through your code efficiently.
 
 
 ## Finish Debugging
-1. <span >**Click**</span> the stop button (red square) to stop debugging.
-2. <span >**Check**</span> your terminal to see the output (it should display `Product is: 12`).
+
+If your program finishes running during debugging, you’ll see the final output (`Product is: 12`) in the terminal.
+
+However, if you’ve already found what you were looking for before the program ends, you can terminate the session at any time.
+
+1. <span >**Click**</span> the stop button (red square) to end the debugging session.
+
+    The session will end immediately without executing the remaining code, and you will not see the final output.
 
 <figure markdown="span">
   ![Image title](../assets/debug10.gif){ width="100%" }
@@ -145,7 +167,8 @@ rather than watching the details inside the `add()` function.
 
 
 !!! success
-    Debugging is complete. If the output is as expected, your code is functioning correctly!
+    Debugging is complete. If you saw the expected output, your code is functioning correctly.  
+    If you stopped early, but confirmed the behavior you were checking, then your debugging was also successful!
 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:

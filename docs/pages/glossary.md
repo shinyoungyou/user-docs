@@ -15,4 +15,5 @@
 |`Debugging`|Breakpoint|A marker you set on a line of code where the debugger will pause, allowing you to inspect variables and code flow.|
 |`Debugging`|Step Into|A debugging command that moves into a function call so you can see its internal operations.|
 |`Debugging`|Step Over|A debugging command that executes a function call without entering it, letting you quickly move to the next line.|
-|`Debugging`|Step Out|A debugging command that finishes executing the current function and returns you to the calling function.|
+|`Debugging`|Inner function|A function that is called from within another function. For example, in `result = add(result, x)`, the `add()` function is the inner function.|
+|`Debugging`|Calling function|The function that invokes (calls) another function. In the example above, `multiply()` is the calling function because it calls `add()`.|
