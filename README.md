@@ -36,14 +36,12 @@ To make sure our writing was consistent, important actions were shown in **bold*
 
 We also used special messages called admonitions to point out important things clearly:
 
-!!! warning
-    Be careful! This step can cause errors.
+> ⚠️ **Warning**: Be careful! This step can cause errors.
 
-!!! note
-    Extra tips or helpful information.
+> 💡 **Note**: Extra tips or helpful information.
 
-!!! success
-    Shows that you followed the steps correctly.
+> ✅ **Success**: Shows that you followed the steps correctly.
+
 
 ## Best Practices for Web Documentation
 
