@@ -16,7 +16,7 @@ Our team started by meeting in person to choose topics and plan the project. We 
 
 ## How We Created This Guide
 
-We created this guide based on what we learned in our CST Term 1 classes, such as COMP 1537 (Web Development) and COMP 1800 (Project 1), where we used VS Code frequently. We clearly documented each step as we practiced, including common problems and how we solved them.
+We created this guide based on what we learned in our CST Term 1 classes, such as COMP 1537 (Web Development 1) and COMP 1800 (Project 1), where we used VS Code frequently. We clearly documented each step as we practiced, including common problems and how we solved them.
 
 ### Using MkDocs
 
@@ -24,7 +24,7 @@ We chose [**MkDocs**](https://www.mkdocs.org/) as our style theme to build our d
 
 ### Using Markdown
 
-Writing this guide was our first big project using Markdown. We practiced Markdown skills learned from our COMM 2116 class, making sure our writing was clear and easy to follow.
+Writing this guide was our first big project using Markdown. We practiced Markdown skills learned from our COMM 2116 (Business Communications 2) class, making sure our writing was clear and easy to follow.
 
 ### Using VS Code
 
