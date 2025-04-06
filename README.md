@@ -28,7 +28,7 @@ Writing this guide was our first big project using Markdown. We practiced Markdo
 
 ### Using VS Code
 
-We wrote everything directly in VS Code. We used the built-in preview to check our Markdown first, then used MkDocs to make sure everything looked good online.
+We wrote all of our documentation content directly in VS Code. We used the built-in preview to check our Markdown first and then used the terminal in VS Code to deploy our website using MkDocs commands to make sure the final output looked correct online.
 
 ### Using a Style Guide
 
@@ -55,7 +55,7 @@ We divided information into smaller parts to avoid confusion. Clear headings, pi
 
 ### Tone
 
-We wrote this guide in a friendly way so it’s easy to understand for beginners. Difficult words were avoided, and we included links for words that might need extra explanation.
+We wrote this guide in a friendly way so it’s easy to understand for beginners. Difficult words were avoided, and we included a glossary for terms that might need extra explanation.
 
 ## Conclusion
 
