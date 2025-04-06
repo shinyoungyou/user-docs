@@ -16,7 +16,7 @@ Our team started by meeting in person to choose topics and plan the project. We 
 
 ## How We Created This Guide
 
-We made this guide based on what we learned from our CST Term 1 classes, such as COMP1537 Web Development and COMP1800 Project 1, where we often used VS Code. We wrote down each step clearly as we practiced, noting problems and their solutions.
+We created this guide based on what we learned in our CST Term 1 classes, such as COMP 1537 (Web Development) and COMP 1800 (Project 1), where we used VS Code frequently. We clearly documented each step as we practiced, including common problems and how we solved them.
 
 ### Using MkDocs
 
