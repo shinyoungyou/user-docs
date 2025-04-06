@@ -1,49 +1,68 @@
-# Overview of VS Code Documentation for Beginner
-Welcome! 👋 This documentation will guide you through essential techniques to boost your productivity in [Visual Studio Code](https://code.visualstudio.com/).
+# Overview of VS Code User Documentation
 
-The goal of this documentation is to provide you with the information needed to build a productive development environment. It also introduces features that can further optimize your development process.
+Welcome! 👋 This documentation will guide you with clear steps on how to use important features in [**Visual Studio Code**](https://code.visualstudio.com/) (VS Code). VS Code is a simple but powerful editor used for writing and debugging code.
 
-These are the topics of this document 
-* Connecting to GitHub
-* Debugging
-* Editing Code Efficiently
+Our goal is to help you use VS Code easily. You’ll learn how to connect to GitHub, debug your Python code, and edit your files quickly.
+
+This guide covers these topics:
+
+- Connecting to GitHub
+- Debugging Python code
+- Editing code faster
 
 ## How We Collaborated
-To establish our topic and allocate roles, our team held in-person meetings. Collaboration on the documentation was managed through Git and GitHub, while Discord served as our platform to discuss progress, review deliverables, and exchange feedback.
 
-## How We Created Out Guide
-Our guide was created using the knowledge we gained during CST Term 1 while working with VS Code. We meticulously followed our guidelines within VS Code and documented each step in detail. By encountering and resolving potential errors and troubleshooting issues firsthand, we were able to offer practical solutions throughout the guide.
+Our team started by meeting in person to choose topics and plan the project. We used **Git** and **GitHub** to manage our work and avoid conflicts. We talked regularly on **Discord** to share ideas and check our progress.
 
-### Using MKDocs
-We chose to use MkDocs, as introduced in COMM 2116. The appearance of the Material for MkDocs theme was clean and organized, making it an excellent choice for our workflow.
+## How We Created This Guide
+
+We made this guide based on what we learned from our CST Term 1 classes, such as COMP1537 Web Development and COMP1800 Project 1, where we often used VS Code. We wrote down each step clearly as we practiced, noting problems and their solutions.
+
+### Using MkDocs
+
+We chose [**MkDocs**](https://www.mkdocs.org/) as our style theme to build our documentation website. We liked [**Material for MkDocs**](https://github.com/squidfunk/mkdocs-material) because it was easy to style and made our guide look neat.
 
 ### Using Markdown
-This documentation represents our first experience with Markdown. We learned how to style text using Markdown techniques in our COMM 2116 Business Communications 2 class and enhanced our skills by applying these techniques throughout the documentation process.
+
+Writing this guide was our first big project using Markdown. We practiced Markdown skills learned from our COMM 2116 class, making sure our writing was clear and easy to follow.
 
 ### Using VS Code
-We used VS Code to write our Markdown files. While we relied on its built-in preview for quick feedback, We deployed our guide using MkDocs to verify that our styles appeared exactly as intended.
 
-### Best Practices for Web Documentation
+We wrote everything directly in VS Code. We used the built-in preview to check our Markdown first, then used MkDocs to make sure everything looked good online.
 
-Consistency and Style:
+### Using a Style Guide
 
-Our documentation maintains a unified appearance by consistently formatting actionable verbs in bold text and displaying commands in dedicated code blocks. This approach makes it clear what actions to take.
+To make sure our writing was consistent, important actions were shown in **bold**, commands were put inside `code blocks`, and pictures helped show each step.
 
+We also used special messages called admonitions to point out important things clearly:
 
-Visual Aids:
+!!! warning
+    Be careful! This step can cause errors.
 
-We use screenshots and images (figures) to support our instructions, helping you follow each step effectively.
+!!! note
+    Extra tips or helpful information.
 
+!!! success
+    Shows that you followed the steps correctly.
 
-Tone:
+## Best Practices for Web Documentation
 
-Our documentation is written in a friendly, casual tone that minimizes technical jargon, making it easy for beginners to follow while still offering clear and useful instructions for experienced developers.
+### Readability
+
+Our guide is easy to read because we used short sections with clear titles. Every section starts with a short overview and ends with a summary to help readers understand quickly.
+
+### Chunking
+
+We divided information into smaller parts to avoid confusion. Clear headings, pictures, and GIF animations help you follow along step-by-step.
+
+### Tone
+
+We wrote this guide in a friendly way so it’s easy to understand for beginners. Difficult words were avoided, and we included links for words that might need extra explanation.
 
 ## Conclusion
-This documentation encapsulates our process of mastering VS Code integration with GitHub, effective debugging, and efficient code editing. While we continue to expand our expertise in these tools, creating this guide has helped us develop clear, web-friendly instructions designed to assist others in enhancing their workflows.
 
-This project also served as a test of our collaborative abilities. Throughout our work, we maintained constant communication, frequently sharing progress updates and ensuring a consistent style. Our teamwork enabled us to overcome challenges and refine our approach.
+Creating this guide helped us learn more about VS Code and how to explain things clearly. We improved our teamwork and learned how to write documentation that's easy to read on the web.
 
-Thank you for reviewing our VS Code documentation. We hope it serves as a practical resource for your development work and as a reference for our future projects.
+Thanks for reading our VS Code documentation! We hope it helps you work faster and easier.
 
-This document was built using the [Material for MkDocs](https://github.com/squidfunk/mkdocs-material).
+This document was built using [Material for MkDocs](https://github.com/squidfunk/mkdocs-material).
