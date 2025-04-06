@@ -11,7 +11,7 @@ This set shows how to use the multi-cursor feature in two common scenarios:
 - Scenario 2: Placing Multi-Cursor <br>Adding an attribute to each list item in a simple HTML list.
 
 ### Scenario 1: Renaming Repeated Code
-1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file:
+1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file (e.g., `index.html`):
 ``` { .html }
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +58,7 @@ Let's say you want to change the class name `card` to `box`.
     
 
     !!! notes
-        Alternatively,   **press** `Ctrl` + `Shift` + `L` to select all matching words in the file at once.
+        Alternatively, **press** `Ctrl` + `Shift` + `L` to select all matching words in the file at once.
 
           <figure markdown="span">
             ![Image title](../assets/code2.gif){ width="100%" }
@@ -73,7 +73,7 @@ Let's say you want to change the class name `card` to `box`.
 
 
 ### Scenario 2: Place Multi-Cursor
-1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file:
+1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new or existing file (e.g., `index.html`).
 ``` { .html }
 <!DOCTYPE html>
 <html lang="en">
@@ -100,7 +100,9 @@ Now, you want to add `class="item"` to each `<li>` tag.
         Make sure your cursors are positioned correctly. Incorrect placement may result in malformed HTML.
 
 3. While <span >**holding down**</span> the `Ctrl` + `Alt` keys, <span >**press**</span> the down arrow key (`↓`) repeatedly.
-4. <span >**Type**</span>  `class="item"`, then each element will have the class attribute set to `item`.
+4. <span >**Type**</span>  `class="item"`.
+
+    Each element will have the class attribute set to `item`.
 
       <figure markdown="span">
         ![Image title](../assets/code4.gif){ width="100%" }

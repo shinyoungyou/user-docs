@@ -10,7 +10,7 @@ In this section, we will talk about how to debug your Python code using VS Code.
 
 ## Enter the Code Example
 
-1. <span >**Copy**</span> and <span >**paste**</span> the following code into a new file:
+1. <span >**Copy**</span> and <span >**paste**</span> the following code into a new file (e.g., `simple_debug.py`):
 ``` { .py }
 def add(a, b):
     sum = a + b
