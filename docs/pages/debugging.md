@@ -114,7 +114,7 @@ Use the "Step Into" to understand how each function works.
 
 Use the "Step Out" when you have finished inspecting a function’s internal behavior and want to resume higher-level execution.
 
-1.  <span >**Click**</span> the "Step Out" button (up arrow icon) if you are inside a function (like `add()`) and want to return to the function that called it. 
+1.  <span >**Click**</span> the "Step Out" button (up arrow icon) if you are inside a function (`add()`) and want to return to the function that called it. 
 
     The "Step Out" will finish the current function and take you back to the previous level in your code.
 
