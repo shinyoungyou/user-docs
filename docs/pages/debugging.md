@@ -173,6 +173,8 @@ However, if you’ve already found what you were looking for before the program 
 ## Conclusion
 By the end of this section, you will have successfully learned the following:
 
-- [x] How to set up, run, and inspect your Python code using the VS Code debugger 
-- [x] How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
-- [x] How to effectively troubleshoot and refine your code during debugging
+:white_check_mark:  How to set up, run, and inspect your Python code using the VS Code debugger 
+
+:white_check_mark: How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
+
+:white_check_mark: How to effectively troubleshoot and refine your code during debugging
