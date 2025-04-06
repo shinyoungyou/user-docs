@@ -10,21 +10,22 @@ Our goal is to help you effectively utilize VS Code's debugging tools, seamlessl
 
 This guide is intended for:
 
-- Beginner to intermediate developers who want to enhance their coding efficiency and learn best practices for debugging and code management.
-- Developers transitioning from other editors or IDEs who wish to quickly get up to speed with VS Code's key functionalities.
-- Beginner developers who use Windows and want to connect VS Code to GitHub for collaborating efficiently with others.
+- Developers who are already using VS Code and want to make better use of VS Code features.
+- Users looking to improve their coding efficiency by learning best practices for debugging and code management in VS Code.
+- Beginner to intermediate Python developers on Windows who want to work more efficiently using GitHub and VS Code.
 
 ## Prerequisite Knowledge
 
 This documentation assumes you have:
 
-- Basic familiarity with programming concepts (e.g., loops, arrays).
-- A foundational understanding of version control systems, specifically Git.
-- Familiarity with Python and have the Python extension installed in VS Code.
-- Have used Python in the VS Code environment before.
-- Frontend experience with HTML.
-- A GitHub account
-- A Windows environment
+- A basic understanding of programming concepts (e.g., loops, arrays).
+- Experience working with Python, including using it within the VS Code environment.
+- The Python extension installed in VS Code.
+- Knowledge of how to open a project folder and create new files in VS Code.
+- Understanding of how to configure the Python debugger in VS Code.
+- Basic frontend development experience with HTML.
+- A GitHub account and foundational knowledge of Git/version control systems.
+- A Windows operating system.
 
 ## Software Requirements
 

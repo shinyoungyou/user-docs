@@ -3,6 +3,11 @@
 ## Overview
 In this section, we will talk about how to debug your Python code using VS Code. Whether you're a beginner or looking to refine your debugging skills, this guide provides step-by-step instructions on configuring breakpoints, and using debugging features like "Step Into", "Step Over," and "Step Out". By following this guide, you’ll learn how to inspect variables, understand function internals, and troubleshoot your code effectively.
 
+!!! notes
+    As it's listed as a prerequisite, we’ve intentionally left out Python debugger configuration to focus solely on functional debugging. If you’re unfamiliar with setting up the debugger, we recommend reviewing the official VS Code documentation before proceeding.
+
+
+
 ## Enter the Code Example
 
 1. <span >**Copy**</span> and <span >**paste**</span> the following code into a new file:
@@ -48,7 +53,7 @@ main()
 ## Set Breakpoints
 We will set a breakpoint at the line `result = add(result, x)` inside the `multiply()` function to see when the `add()` function is called.
 
-1. <span >**Move**</span> your mouse over the left side of the line numbers. You’ll see a dim red dot appear. 
+1. <span >**Move**</span> your mouse over the left side of the line numbers. <br>You’ll see a dim red dot appear. 
 2. <span >**Click**</span> the dim red dot to set a breakpoint (it turns into a solid red dot).
 
 !!! note
@@ -61,7 +66,7 @@ We will set a breakpoint at the line `result = add(result, x)` inside the `multi
 
 
 ## Start Debugging
-1. <span >**Click**</span> the "Run and Debug" button at the top of the Debug panel. Your code will run and pause at the breakpoint.
+1. <span >**Click**</span> the "Run and Debug" button at the top of the Debug panel. <br>Your code will run and pause at the breakpoint.
 
 <figure markdown="span">
   ![Image title](../assets/debug5.gif){ width="100%" }
@@ -145,8 +150,6 @@ rather than watching the details inside the `add()` function.
 ## Conclusion
 By the end of this section, you will have successfully learned the following:
 
-:white_check_mark: How to set up, run, and inspect your Python code using the VS Code debugger
-
-:white_check_mark: How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
-
-:white_check_mark: How to effectively troubleshoot and refine your code during debugging
+- [x] How to set up, run, and inspect your Python code using the VS Code debugger 
+- [x] How to use breakpoints and debugging features such as Step Into, Step Over, and Step Out
+- [x] How to effectively troubleshoot and refine your code during debugging

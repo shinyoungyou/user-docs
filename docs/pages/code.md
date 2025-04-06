@@ -72,7 +72,7 @@ Let's say you want to change the class name `card` to `box`.
       </figure>
 
 
-### Example 2: Place Multi-Cursor
+### Scenario 2: Place Multi-Cursor
 1. <span >**Copy**</span> and <span >**paste**</span> the following HTML structure into a new file:
 ``` { .html }
 <!DOCTYPE html>
@@ -147,8 +147,6 @@ If you can’t remember the exact location, use "Quick Open" to locate your file
 ## Conclusion
 By the end of this section, you will have successfully learned the following:
 
-:white_check_mark: How to use multi-cursor editing to modify code simultaneously
-
-:white_check_mark: How to quickly manage multiple tabs for a cleaner workspace
-
-:white_check_mark: How to use fast file search to open files efficiently
+- [x] How to use multi-cursor editing to modify code simultaneously
+- [x] How to quickly manage multiple tabs for a cleaner workspace
+- [x] How to use fast file search to open files efficiently
